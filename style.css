@@ -1,0 +1,147 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.header img {
+  max-height: 50px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.get-started {
+  background-color: #6900ff;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  gap: 90px;
+}
+
+.main-text {
+  max-width: 50%;
+}
+
+.main-text h1 {
+  font-size: 2.5em;
+  color: #6900ff;
+  margin-bottom: 1px ;
+}
+
+.main-text p {
+  font-size: 0.7em;
+  margin-bottom: 1px 0;
+}
+
+.main-image {
+  position: relative;
+}
+
+.main-image .woman {
+  position: absolute;
+  bottom: 60px;
+  left: 10px;
+}
+
+.main-image .serv {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* height: 50px; */
+}
+
+.ser {
+  background-color: purple;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 150px;
+  height: 40px;
+}
+
+.main-image img {
+  max-width: 80%;
+}
+
+.partners {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  text-align: center;
+}
+
+.partners img {
+  max-height: 80px;
+  margin: 0 20px;
+}
+
+.services {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.service {
+  background-color: #6900ff;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 30%;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  background-color: #9a809b;
+}
+
+
+.footer p {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  line-height: 2;
+}
